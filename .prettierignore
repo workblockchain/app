@@ -1,0 +1,6 @@
+# Auto generated pnpm lockfile.
+pnpm-lock.yaml
+
+# Files managed by go fmt.
+go.mod
+go.sum
