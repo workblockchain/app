@@ -5,3 +5,4 @@
 - `styled-components` setup.
 - `golang` and `echo` web framework setup.
 - `vitest` setup.
+- `storybook` setup.

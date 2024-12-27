@@ -10,5 +10,15 @@
   "editor.codeActionsOnSave": {"source.organizeImports": "always"},
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "[go]": {"editor.defaultFormatter": "golang.go"},
-  "[go.mod]": {"editor.defaultFormatter": "golang.go"}
+  "[go.mod]": {"editor.defaultFormatter": "golang.go"},
+
+  // File nesting. To enable, you must also
+  // enable `"explorer.fileNesting.enabled": true,` in your user settings.
+  "explorer.fileNesting.expand": false,
+  "explorer.fileNesting.patterns": {
+    "*.tsx": "${capture}.stories.ts,${capture}.test.ts",
+    "go.mod": "go.sum",
+    "package.json": "pnpm-lock.yaml",
+    "tsconfig.json": "tsconfig.*.json"
+  }
 }

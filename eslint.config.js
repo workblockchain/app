@@ -20,7 +20,7 @@ export default tseslint.config(
       ],
 
       // Avoid unnecessary error messages.
-      "no-unused-vars": "warn",
+      "@typescript/no-unused-vars": "warn",
     },
   }
 )

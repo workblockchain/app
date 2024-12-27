@@ -1,5 +1,5 @@
+import {Center} from "@components/utils"
 import {useEffect} from "react"
-import {styled} from "styled-components"
 
 export default function App() {
   useEffect(() => {
@@ -8,19 +8,7 @@ export default function App() {
 
   return (
     <>
-      <Placeholder>Placeholder</Placeholder>
+      <Center>Placeholder</Center>
     </>
   )
 }
-
-const Placeholder = styled.div`
-  /* Center. */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  /* Full. */
-  position: absolute;
-  width: 100%;
-  height: 100%;
-`
